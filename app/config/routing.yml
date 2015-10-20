@@ -1,0 +1,8 @@
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /apidoc
+
+time_table_api:
+    resource: "@TimeTableApiBundle/Resources/config/routing.yml"
+    prefix:   /api
+    type: rest

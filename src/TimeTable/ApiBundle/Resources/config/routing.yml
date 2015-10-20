@@ -1,0 +1,19 @@
+api_user:
+  type:     rest
+  resource: TimeTable\ApiBundle\Controller\UserController
+  prefix: /1.0
+
+api_work_time:
+  type:     rest
+  resource: TimeTable\ApiBundle\Controller\WorkTimeController
+  prefix: /1.0
+
+api_project:
+  type:     rest
+  resource: TimeTable\ApiBundle\Controller\ProjectController
+  prefix: /1.0
+
+api_overview:
+  type:     rest
+  resource: TimeTable\ApiBundle\Controller\OverviewController
+  prefix: /1.0
